@@ -1,0 +1,16 @@
+{
+  "name": "vk-qa-demoblaze",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright test for adding Samsung galaxy s6 to the Demoblaze cart",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1"
+  }
+}
